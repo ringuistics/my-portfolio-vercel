@@ -118,7 +118,7 @@ function App() {
       {/* 💡 Ctrl + / (Macは Cmd + /) を押すと、コメントを外せるよ */}
       <ProfileSection />
       <SocialLinkSection />
-      <PersonalLinkSection />
+      {/* <PersonalLinkSection /> */}
     </div>
   );
 }
