@@ -20,7 +20,7 @@ const ProfileSection = () => {
       <p className="text-sm text-[#6b5744]">東京海洋大学 流通情報工学科 2年</p>
       <p className="text-xs text-[#8a7a6c]">📍カントー地方 </p>
       <p className="text-sm text-[#6b5744] leading-relaxed max-w-[320px] mt-1">
-        おはようございます！
+        素面です
       </p>
     </div>
   );
@@ -71,29 +71,29 @@ const SocialLinkSection = () => {
   );
 };
 
-/* Step Ex1. SNS以外のリンクも表示させる */
-const PersonalLinkSection = () => {
-  // const personalLinks: LinkData[] = [
-  //   {
-  //     title: 'ポートフォリオサイト',
-  //     subtitle: 'これまで作った作品',
-  //     url: 'https://portfolio.example.com',
-  //   },
-  //   {
-  //     title: '技術ブログ',
-  //     subtitle: 'エンジニアブログ',
-  //     url: 'https://taro-blog.example.com',
-  //   },
-  // ]
+// /* Step Ex1. SNS以外のリンクも表示させる */
+// const PersonalLinkSection = () => {
+//   // const personalLinks: LinkData[] = [
+//   //   {
+//   //     title: 'ポートフォリオサイト',
+//   //     subtitle: 'これまで作った作品',
+//   //     url: 'https://portfolio.example.com',
+//   //   },
+//   //   {
+//   //     title: '技術ブログ',
+//   //     subtitle: 'エンジニアブログ',
+//   //     url: 'https://taro-blog.example.com',
+//   //   },
+//   // ]
 
-  return (
-    <Flex direction="column" gap="md">
-      <Header title="Links" as="h2" />
+//   return (
+//     <Flex direction="column" gap="md">
+//       <Header title="Links" as="h2" />
 
-      {/* 💡SNS以外のリンクを表示させるコードを書いてみよう */}
-    </Flex>
-  );
-};
+//       {/* 💡SNS以外のリンクを表示させるコードを書いてみよう */}
+//     </Flex>
+//   );
+// };
 
 // /* === Step Ex2. タグを表示させる */
 // const TagSection = () => {
